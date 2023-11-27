@@ -3,7 +3,6 @@ import './testimonials.css'
 import AVATAR1  from '../../assests/avatar1.png'
 import AVATAR2  from '../../assests/avatar2.png'
 import AVATAR3  from '../../assests/avatar3.png'
-import AVATAR4  from '../../assests/avatar4.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import 'swiper/css';
