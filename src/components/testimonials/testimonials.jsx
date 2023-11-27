@@ -14,31 +14,26 @@ import 'swiper/css/pagination';
 const data=[
   {
     avatar: AVATAR1,
-    name: 'ARUN',
-    review: 'He was good in react. I like to offer in my company but he refuse. Because he want to stand in his own bussiness'
+    name: 'INTEGRITY',
+    review: 'I WILL GIVE MY BEST IN MY WORK'
   },
   {
     avatar: AVATAR2,
-    name: 'ARUN',
-    review: 'He was good in react. I like to offer in my company but he refuse. Because he want to stand in his own bussiness'
+    name: 'ENDLESS PATIENCE',
+    review: 'I CAN ABLE TO HANDLE MYSELF'
   },
   {
     avatar: AVATAR3,
-    name: 'ARUN',
-    review: 'He was good in react. I like to offer in my company but he refuse. Because he want to stand in his own bussiness'
-  },
-  {
-    avatar: AVATAR4,
-    name: 'ARUN',
-    review: 'He was good in react. I like to offer in my company but he refuse. Because he want to stand in his own bussiness'
+    name: 'ADAPTABILITY',
+    review: 'EASILY ADAPT TO NEW ENVIRONMENT'
   }
 ]
 
 const testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from client</h5>
-      <h2>Testimonials</h2>
+      <h5>About Personal Skill</h5>
+      <h2>Personal Quality</h2>
       <Swiper className="container testimonial__container"
       modules={[Pagination]}
        spaceBetween={40}
